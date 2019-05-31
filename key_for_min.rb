@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
    hash = {:blake => 500, :ashley => 2, :adam => 1}
      hash.each do |name , number|
-       hash.min
+        hash.min
      end
+     puts hash.min(number)
 end
