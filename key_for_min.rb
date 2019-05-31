@@ -6,5 +6,5 @@ def key_for_min_value(name_hash)
      hash.each do |name , number|
         hash.min
      end
-     puts hash.min(number)
+     puts hash.min
 end
